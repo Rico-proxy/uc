@@ -30,11 +30,11 @@ const Navbar = () => {
       <li><Link to="/about" className="hover-underline  py-2 px-4 rounded-md">Contatc Us</Link></li>
       
     </ul>
-    <div className=' '>
-    <button  className="hover:bg-[#2a3b64]   hover:delay-150 duration-150 bg-[#0f1b39] shadow-2xl  text-white font-bold py-4 px-8 rounded-3xl">
-        <Link to='/login'>CLIENT LOGIN</Link>    
-          </button>
-    </div>
+    
+    
+    <Link className='hover:bg-[#2a3b64]   hover:delay-150 duration-150 bg-[#0f1b39] shadow-2xl  text-white font-bold py-4 px-8 rounded-3xl' to='/login'>CLIENT LOGIN</Link>    
+        
+  
   </nav>
   
   );
