@@ -2,7 +2,7 @@ import { useState } from 'react';
 import Padlock from '../components/Padlock';
 import axios from 'axios';
 import { useNavigate } from 'react-router-dom';
-import toast from 'react-hot-toast';
+import toast, { Toaster } from 'react-hot-toast';
 
 const Access = () => {
     const [accessCode, setAccessCode] = useState('');
@@ -46,6 +46,7 @@ const Access = () => {
 
     return (
         <div className='min-h-screen bg-[#0f1b39]'>
+            <Toaster position="top-center" reverseOrder={false} />
             <div className='flex justify-center pt-10'>
                 <div className='flex flex-col'>
                     <div>

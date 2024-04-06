@@ -1,9 +1,9 @@
+
 import React from 'react';
 import { FiMail } from 'react-icons/fi';
 import { RiLockPasswordLine } from "react-icons/ri";
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
-
 
 const Login = () => {
   const navigate = useNavigate();
@@ -21,34 +21,41 @@ const Login = () => {
     try {
       const response = await axios.post(url, formData);
       
+      // Assuming the structure of the response based on the image you provided
+      const loginResponse = response.data.loginResponse;
+
       // Store the token and token expiry date
-      localStorage.setItem('authToken', response.data.token.token);
-      localStorage.setItem('tokenExpiry', response.data.token.expiryDate);
+      localStorage.setItem('authToken', loginResponse.token);
+      // You might need to adjust the 'tokenExpiry' key based on your backend implementation if it exists
+      // localStorage.setItem('tokenExpiry', loginResponse.expiryDate);
 
-      // Extract and store user details from userResponse
-      const userDetails = response.data.userResponse;
-
-      localStorage.setItem('userId', userDetails.id);
-      localStorage.setItem('firstName', userDetails.firstName);
-      localStorage.setItem('lastName', userDetails.lastName);
-      localStorage.setItem('email', userDetails.email);
-      localStorage.setItem('phoneNumber', userDetails.phoneNumber);
-      localStorage.setItem('role', userDetails.role);
-      localStorage.setItem('fullName', userDetails.fullName);
-      localStorage.setItem('accountType', userDetails.accountType);
-      localStorage.setItem('address', userDetails.address);
-      localStorage.setItem('city', userDetails.city);
-      localStorage.setItem('state', userDetails.state);
-      localStorage.setItem('walletId', userDetails.walletId);
-      localStorage.setItem('walletBalance', userDetails.walletBalance);
+      // Store user details
+      localStorage.setItem('userId', loginResponse.id);
+      localStorage.setItem('firstName', loginResponse.firstName);
+      localStorage.setItem('lastName', loginResponse.lastName);
+      localStorage.setItem('email', loginResponse.email);
+      localStorage.setItem('phoneNumber', loginResponse.phoneNumber);
+      localStorage.setItem('role', loginResponse.role);
+      localStorage.setItem('fullName', loginResponse.fullName);
+      localStorage.setItem('accountType', loginResponse.accountType);
+      localStorage.setItem('address', loginResponse.address);
+      localStorage.setItem('city', loginResponse.city);
+      localStorage.setItem('state', loginResponse.state);
+      localStorage.setItem('walletId', loginResponse.walletId);
+      localStorage.setItem('walletBalance', loginResponse.walletBalance);
+      localStorage.setItem('ledgerAccountId', loginResponse.ledgerAccountId);
+      localStorage.setItem('ledgerAccountBalance', loginResponse.ledgerAccountBalance);
+      localStorage.setItem('usdAccountId', loginResponse.usdAccountId);
+      localStorage.setItem('usdAccountBalance', loginResponse.usdAccountBalance);
+      localStorage.setItem('cryptoKey', loginResponse.cryptoKey);
+    
 
       // Navigate based on the user role
-      navigate(userDetails.role === 'Admin' ? '/admin' : '/user');
+      navigate(loginResponse.role === 'Admin' ? '/admin' : '/user');
     } catch (error) {
       console.error('Login error:', error.response);
     }
   };
-
   return (
     <div className='min-h-screen bg-[#0f1b39]'>
       <div className='flex justify-center pt-40'>

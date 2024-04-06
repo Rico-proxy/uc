@@ -7,11 +7,11 @@ const TimeBasedGreeting = () => {
     const updateGreeting = () => {
       const hour = new Date().getHours(); // get the current hour
       if (hour < 12) {
-        setGreeting('Good morning');
+        setGreeting('Good morning☀️');
       } else if (hour < 18) {
-        setGreeting('Good afternoon');
+        setGreeting('Good afternoon☀️');
       } else {
-        setGreeting('Good evening');
+        setGreeting('Good evening🌓');
       }
     };
 

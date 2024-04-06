@@ -7,12 +7,11 @@ import { SlWallet } from "react-icons/sl";
 import { AiOutlineClose } from "react-icons/ai";
 import { BiLogOut } from "react-icons/bi";
 import { Link } from 'react-router-dom';
-import { BiBitcoin } from "react-icons/bi";
-import UserProfile from '../components/UserProfile';
-import UserList from '../components/UserList';
+import UserActivity from '../components/UserActivity';
+import TransactionActivity from '../components/TransactionActivity';
 
 
-const Admin = () => {
+const Transaction = () => {
 
   
   
@@ -48,9 +47,9 @@ const Admin = () => {
                 <AiOutlineClose size={24}/>
               </button>
               <nav className="mt-20 flex flex-col space-y-8">
-                <Link to="/user" className="flex items-center space-x-3 border-b border-gray-700 pb-2">
+                <Link to="/admin" className="flex items-center space-x-3 border-b border-gray-700 pb-2">
                   <RiDashboardFill className='text-2xl text-white'/>
-                  <span className='text-xl text-white'>Dashboard</span>
+                  <span className='text-xl text-white'>User List</span>
                 </Link>
                 <Link to="/activity" className="flex items-center space-x-3 border-b border-gray-700 pb-2">
                   <BsFillPersonFill className='text-2xl text-white'/>
@@ -75,7 +74,7 @@ const Admin = () => {
           <main className='pt-10  flex flex-col  bg-slate-200 '>
               
               <div className='px-20'>
-              <UserList/>
+              <TransactionActivity />
               </div>
           </main>
         </div>
@@ -83,4 +82,4 @@ const Admin = () => {
   );
 };
 
-export default Admin;
+export default Transaction;

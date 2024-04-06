@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 import { FiCopy } from 'react-icons/fi'; // Make sure you have react-icons installed
 import toast from 'react-hot-toast';
 
-const Copy = () => {
+const Copy2 = () => {
   const divToCopyRef = useRef(null);
 
   const handleCopy = () => {
@@ -20,7 +20,7 @@ const Copy = () => {
   return (
     <div className='text-sm flex flex-row items-center'>
       <div ref={divToCopyRef} className="content-to-copy mr-2">
-      yuhgcjagcaxcygbsacva
+        123456788910
       </div>
       <button onClick={handleCopy} className="copy-button">
         <FiCopy size={20} />
@@ -30,4 +30,4 @@ const Copy = () => {
   );
 };
 
-export default Copy;
+export default Copy2;
