@@ -117,7 +117,9 @@ const Website = () => {
                    <div className='grid grid-cols-2 gap-8 pt-20'>
                     <div className='flex flex-col space-y-3'>
                           <div className='text-white text-2xl font-bold'>
-                              <h1>Platform For Our Participators</h1>
+                              <h1>
+                              Prime Banking: Redefining Personalized Financial Excellence
+                              </h1>
                           </div>
                           <div className='text-white font-light text-sm'>
                             <p>
@@ -127,21 +129,14 @@ const Website = () => {
                           </div>
                           <div className='pt-10 flex flex-col space-y-10'>
                                 <div className='flex space-x-3 tet-center items-center text-white'>
-                                    <div div className='flex justify-center items-center w-[115px] h-16 bg-[#c62a88] rounded-full mb-4'>
-                                       <p className='text-xl font-bold text-white'><FaAward/></p>
-                                      </div>
+                                    
                                       <div className=''>
-                                          <p className='font-extralight text-[14px]'>As part of our <span className='font-bold'>Prime Banking </span>  package, clients receive unparalleled attention from a dedicated Relationship Manager—a financial confidant equipped to provide expert advice and customized solutions that align with each client’s unique financial aspirations. The Relationship Manager serves as a single point of contact, ensuring a seamless and cohesive banking experience.</p>
+                                          <p className='font-extralight text-[14px]'>Prime Banking is a bespoke financial service tailored for the discerning client who seeks more than just a transactional relationship with their financial institution. It represents the pinnacle of personalized banking, offering clients an exclusive gateway to a suite of premium products, dedicated service, and financial expertise.
+
+                                          As part of our Prime Banking package, clients receive unparalleled attention from a dedicated Relationship Manager—a financial confidant equipped to provide expert advice and customized solutions that align with each client’s unique financial aspirations. The Relationship Manager serves as a single point of contact, ensuring a seamless and cohesive banking experience.</p>
                                       </div>
                                 </div>
-                                <div className='flex space-x-3 tet-center items-center text-white'>
-                                    <div div className='flex justify-center items-center w-[115px] h-16 bg-[#c62a88] rounded-full mb-4'>
-                                       <p className='text-xl font-bold text-white'><FaAward/></p>
-                                      </div>
-                                      <div className=''>
-                                          <p className='font-extralight text-[14px]'>The service spectrum of <span className='font-bold'>Private Banking</span>  includes a suite of exclusive investment opportunities that are not accessible to the broader market. These range from bespoke portfolio management to private equity and alternative investments, each selected to align with the individual’s risk profile, return expectations, and long-term financial ambitions.</p>
-                                      </div>
-                                </div>
+                             
                                 
                                 
                           </div>
@@ -161,38 +156,23 @@ const Website = () => {
             <div className='grid grid-cols-2 gap-8 pt-[230px]'>
                     <div className='order-2 flex flex-col space-y-6'>
                           <div className='text-white text-2xl font-bold'>
-                              <h1>Platform For Our Participators</h1>
+                              <h1>Private Banking: Exclusive Financial Stewardship for the Affluent Individual</h1>
                           </div>
                           <div className='text-white font-light text-sm'>
                             <p>
-                            We offers users a fully operational long-term rental platform. It plans to leverages blockchain technology to ensure seamless rental.
+                            We provide personal attention from a dedicated Private Banker who is focused on you and your goals.
                             </p>
                           </div>
                           <div className='flex flex-col space-y-3'>
                                 <div className='flex space-x-3 tet-center items-center text-white'>
-                                    <div div className='flex justify-center items-center w-[115px] h-16 bg-[#c62a88] rounded-full mb-4'>
-                                       <p className='text-xl font-bold text-white'><FaAward/></p>
-                                      </div>
                                       <div className=''>
-                                          <p className='font-light text-[14px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                                          <p className='font-extralight text-[14px]'>Private Banking stands as the epitome of bespoke financial services, catering exclusively to the needs of high-net-worth individuals who require a more intimate and proactive approach to wealth management. This elite banking division is dedicated to providing a confidential and highly personalized experience, ensuring that each client's financial and lifestyle preferences are not just met, but exceeded.
+
+                                        Our Private Banking clients are assigned a dedicated Wealth Manager, who acts as a trusted advisor and an extension of the client's financial conscience. This partnership is built on the foundations of discretion, expertise, and a deep understanding of the nuances of wealth. The Wealth Manager ensures a comprehensive assessment of the client's financial health, crafting strategies that span investment management, estate planning, tax optimization, and philanthropic endeavors.</p>
                                       </div>
                                 </div>
-                                <div className='flex space-x-3 tet-center items-center text-white'>
-                                    <div div className='flex justify-center items-center w-[115px] h-16 bg-[#c62a88] rounded-full mb-4'>
-                                       <p className='text-xl font-bold text-white'><FaAward/></p>
-                                      </div>
-                                      <div className=''>
-                                          <p className='font-light text-[14px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                                      </div>
-                                </div>
-                                <div className='flex space-x-3 tet-center items-center text-white'>
-                                    <div div className='flex justify-center items-center w-[115px] h-16 bg-[#c62a88] rounded-full mb-4'>
-                                       <p className='text-xl font-bold text-white'><FaAward/></p>
-                                      </div>
-                                      <div className=''>
-                                          <p className='font-light text-[14px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                                      </div>
-                                </div>
+                             
+                                
                                 
                           </div>
 
@@ -210,57 +190,7 @@ const Website = () => {
             </div>
       </div>
     </platform>
-    <mvp className="min-h-screen pt-40 p-[80px]">
-          <div className='flex flex-col'>
-                   <div className="relative font-bold text-2xl text-white text-center">
-                            MVP
-                          <div className=" absolute left-[530px] bottom-0  h-[2px] bg-[#c62a88] w-[55px]"></div>
-                        </div>
-                        <div className='grid grid-cols-2 gap-8 pt-20'>
-                    <div className='flex flex-col space-y-4'>
-                          <div className='text-white text-4xl font-bold'>
-                              <h1>We’re Reinventing The Global Equity Blockchian</h1>
-                          </div>
-                          <div className='text-[#c62a88] text-2xl font-light '>
-                            <p>
-                            Automatic matching of buyers & sellers via unique artificial intelligence approach.
-                            </p>
-                          </div>
-                          <div className='flex flex-col space-y-6'>
-                                <div className='flex space-x-3 tet-center items-center text-white'>
-                                    <div div className='flex justify-center items-center w-[115px] h-16 bg-[#c62a88] rounded-full mb-4'>
-                                       <p className='text-xl font-bold text-white'><GiCheckMark /></p>
-                                      </div>
-                                      <div className=''>
-                                          <p className='font-light text-[14px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                                      </div>
-                                </div>
-                                <div className='flex space-x-3 tet-center items-center text-white'>
-                                    <div div className='flex justify-center items-center w-[115px] h-16 bg-[#c62a88] rounded-full mb-4'>
-                                       <p className='text-xl font-bold text-white'><GiCheckMark /></p>
-                                      </div>
-                                      <div className=''>
-                                          <p className='font-light text-[14px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                                      </div>
-                                </div>
-                                
-                                
-                          </div>
-
-                    </div>
-                    <div className="flex justify-center animate-[bounce_8s_ease-in_infinite]">
-                      <img
-                        src="/assets/iconimg3.png"
-                        alt="Digital Currency"
-                        width={550}
-                        height={200}
-                        
-                      />
-                    </div>
-
-            </div>
-          </div>
-    </mvp>
+   
     <token className="min-h-screen pt-20 p-[80px]">
       <div className='flex flex-col'>
       <div className="relative font-bold text-2xl text-white text-center">
@@ -299,110 +229,18 @@ const Website = () => {
 
            
     </token>
-    <document className="min-h-screen p-[80px]">
-          <div className='flex flex-col'>
-                   <div className="relative font-bold text-2xl text-white text-center">
-                            DOCUMENTS
-                          <div className=" absolute left-[530px] bottom-0  h-[2px] bg-[#c62a88] w-[55px]"></div>
-                   </div>
-                   <div className='grid grid-cols-2 pt-20'>
-                   <div className=" flex justify-center ">
-                      <img
-                        src="/assets/whitepaper.png"
-                        alt="Digital Currency"
-                        width={450}
-                        height={200}
-                        
-                      />
-                    </div>
-                    <div className='flex  flex-col space-y-3 font-light text-[16px] text-white'>
-                          <p>
-                          There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything therefore always embarrassing hidden in the middle of text.
-                          </p>
-                          <p>
-                          It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-
-
-                          </p>
-                          <p>
-                          It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
-                          </p>
-
-                    </div>
-                   </div>
-
-          </div>
-    </document>
+   
     
-     <mobile className='min-h-screen pt-40'>
-            <div className='flex flex-col'>
-                    <div className="relative font-bold text-2xl text-white text-center">
-                            MOBILE APP
-                          <div className=" absolute left-[530px] bottom-0  h-[2px] bg-[#c62a88] w-[55px]"></div>
-                   </div>
-                   <div className='grid grid-cols-2 pt-36'>
-                   <div className="pt-20 flex justify-center animate-[bounce_8s_ease-in_infinite]">
-                      <img
-                        src="/assets/download-banner.png"
-                        alt="Digital Currency"
-                        width={450}
-                        height={200}
-                        
-                      />
-                    </div>
-                    <div className=" text-white  p-10 ">
-                        <h1 className="text-5xl font-bold mb-4">Download The App Today</h1>
-                        <p className="mb-10">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                        
-                        <div className='flex flex-col space-y-6'>
-                                <div className='flex space-x-3 tet-center items-center text-white'>
-                                    <div div className='flex justify-center items-center w-[115px] h-16 bg-[#c62a88] rounded-full mb-4'>
-                                       <p className='text-xl font-bold text-white'><GiCheckMark /></p>
-                                      </div>
-                                      <div className=''>
-                                          <p className='font-light text-[14px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                                      </div>
-                                </div>
-                                <div className='flex space-x-3 tet-center items-center text-white'>
-                                    <div div className='flex justify-center items-center w-[115px] h-16 bg-[#c62a88] rounded-full mb-4'>
-                                       <p className='text-xl font-bold text-white'><GiCheckMark /></p>
-                                      </div>
-                                      <div className=''>
-                                          <p className='font-light text-[14px]'>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
-                                      </div>
-                                </div>
-                                
-                                
-                          </div>
-                        
-                        <div className="flex justify-center space-x-4 pt-6">
-                          <button className="bg-pink-500 px-6 py-3 rounded-lg flex items-center font-bold text-lg">
-                            <FaApple className="mr-2" />
-                            APP STORE
-                          </button>
-                          <button className="bg-black px-6 py-3 rounded-lg flex items-center font-bold text-lg">
-                            <FaGooglePlay className="mr-2" />
-                            GOOGLE PLAY
-                          </button>
-                        </div>
-
-                        <div className="absolute top-0 left-0 right-0 bottom-0 flex items-center justify-center">
-                          {/* Background network-like design can be added here with an SVG or CSS */}
-                        </div>
-                      </div>
-                   </div>
-            </div>
-
-     </mobile>
+    
      <contact className="map">
               <div className="min-h-screen pt-[200px]  w-full h-full flex  justify-center items-center bg-black/70
           backdrop-brightness-75 px-[80px]">
           
           <div className=" grid grid-cols-2 gap-8 text-white   items-center">
             <div className="space-y-8">
-              <h1 className="text-6xl font-bold tracing-widest">Prime Banking Solutions.</h1>
+              <h1 className="text-6xl font-bold tracing-widest">Contact BitPayment System</h1>
               <p className='text-sm font-light w-3/5'>
-                  We offer a fully electronic platform for Cryptocurrency prime banking Solutions.
+              <h1 className="text-6xl font-bold tracing-widest"> </h1>
               </p>
               <div className='flex flex-row  space-x-6 pt-4 text-sm'>
               <Link className='hover:bg-[#2a3b64]   hover:delay-150 duration-150 bg-[#0f1b39] shadow-2xl  text-white font-bold py-4 px-8 rounded-lg' to='/login'>Prime Banking</Link>

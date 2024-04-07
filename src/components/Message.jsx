@@ -21,13 +21,13 @@ function    Message() {
   const handleSubmit = (e) => {
     e.preventDefault();
     // Process form data here
-    console.log(formData);
+    console.log(formData);      
   };
 
   return (
     <form onSubmit={handleSubmit} className="contact-form text-black">
       <div className="form-group">
-        <FaUser />
+        <FaUser className='text-white'/>
         <input
           type="text"
           name="name"
@@ -39,7 +39,7 @@ function    Message() {
       </div>
 
       <div className="form-group">
-        <FaPhone />
+        <FaPhone className='text-white'/>
         <input
           type="tel"
           name="phone"
@@ -51,7 +51,7 @@ function    Message() {
       </div>
 
       <div className="form-group">
-        <FaEnvelope />
+        <FaEnvelope className='text-white'/>
         <input
           type="email"
           name="email"
@@ -63,7 +63,7 @@ function    Message() {
       </div>
 
       <div className="form-group">
-        <FaListAlt />
+        <FaListAlt className='text-white'/>
         <select
           name="option"
           value={formData.option}
@@ -78,7 +78,7 @@ function    Message() {
       </div>
 
       <div className="form-group">
-        <FaPen />
+        <FaPen className='text-white'/>
         <textarea
           name="message"
           placeholder="Your Message*"
