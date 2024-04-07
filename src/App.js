@@ -7,7 +7,7 @@ import Website from './pages/Website';
 import Profile from './pages/Profile';
 import Dashboard from './pages/Dashboard'
 import Faq from './pages/Faq';
-
+import './App.css';
 import {
   BrowserRouter as Router,
   Routes,
